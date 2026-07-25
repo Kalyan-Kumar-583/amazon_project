@@ -5,9 +5,10 @@
     <classes>
       <class name="tests.AddCartTest">
         <methods>
-          <include name="driverSetup"/>
+          <include name="selectItem"/>
+          <include name="setUp"/>
+          <include name="seachItem"/>
           <include name="tearDown"/>
-          <include name="seachingItem"/>
         </methods>
       </class> <!-- tests.AddCartTest -->
     </classes>
