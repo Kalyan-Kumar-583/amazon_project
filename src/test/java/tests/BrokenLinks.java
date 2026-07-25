@@ -10,9 +10,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class BrokenLinks {
-	public BrokenLinks() throws Exception {
+	
+	@Test
+	public void BrokenLinks() throws Exception {
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.google.com/");
 	List<WebElement> links = driver.findElements(By.tagName("a"));
@@ -37,16 +40,6 @@ public class BrokenLinks {
 	
 	driver.quit();
 	
-	}
-	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
-		BrokenLinks testObj = new BrokenLinks();
-		String username = System.getenv("git_username");
-		String password = System.getenv("git_password");
-		
-		System.out.println("username : "+username);
-		System.out.println("password : "+password);
-
 	}
 
 }
