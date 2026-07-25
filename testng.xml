@@ -9,7 +9,7 @@
   <test name="Test">
   <parameter name = "browser" value = "chrome"/>
     <classes>
-      <class name="tests.AddCartTest"/>
+      <class name="tests.BrokenLinks"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
