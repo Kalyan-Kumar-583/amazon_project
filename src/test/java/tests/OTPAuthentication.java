@@ -9,14 +9,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import utils.ConfigReader;
 
 public class OTPAuthentication {
 
-	public static void main(String[] args) throws Exception {
+//	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		
+	@Test
+		public void OtpAuth() throws Exception{
 		String username = System.getenv("git_username");
 		String password = System.getenv("git_password");
 		

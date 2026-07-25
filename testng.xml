@@ -6,10 +6,18 @@
 
 </listener>
 </listeners>
-  <test name="Test">
+  <test name="Broken Links Test">
   <parameter name = "browser" value = "chrome"/>
     <classes>
       <class name="tests.BrokenLinks"/>
     </classes>
   </test> <!-- Test -->
+  
+  <test name="OTP Authentication Test">
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+      <class name="tests.OTPAuthentication"/>
+    </classes>
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
