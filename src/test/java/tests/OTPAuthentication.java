@@ -38,6 +38,7 @@ public class OTPAuthentication {
 		
 		Totp totp = new Totp("5DTLWRNGYOEJPM43");
 		String currentOTP = totp.now();
+		System.out.println("current OTP is : "+currentOTP);
 		
 		WebElement otp = driver.findElement(By.id("app_totp"));
 		

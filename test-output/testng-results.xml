@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-26T00:57:50 IST" name="Broken Suite" finished-at="2026-07-26T00:58:25 IST" duration-ms="34902">
+  <suite started-at="2026-07-26T01:29:38 IST" name="Broken Suite" finished-at="2026-07-26T01:30:15 IST" duration-ms="37530">
     <groups>
     </groups>
-    <test started-at="2026-07-26T00:57:50 IST" name="Broken Links Test" finished-at="2026-07-26T00:58:07 IST" duration-ms="17210">
+    <test started-at="2026-07-26T01:29:38 IST" name="Broken Links Test" finished-at="2026-07-26T01:29:55 IST" duration-ms="17759">
       <class name="tests.BrokenLinks">
-        <test-method signature="BrokenLinks()[pri:0, instance:tests.BrokenLinks@4d5d943d]" started-at="2026-07-26T00:57:50 IST" name="BrokenLinks" finished-at="2026-07-26T00:58:07 IST" duration-ms="17133" status="PASS">
+        <test-method signature="BrokenLinks()[pri:0, instance:tests.BrokenLinks@4d5d943d]" started-at="2026-07-26T01:29:38 IST" name="BrokenLinks" finished-at="2026-07-26T01:29:55 IST" duration-ms="17684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrokenLinks -->
       </class> <!-- tests.BrokenLinks -->
     </test> <!-- Broken Links Test -->
-    <test started-at="2026-07-26T00:58:07 IST" name="OTP Authentication Test" finished-at="2026-07-26T00:58:25 IST" duration-ms="17618">
+    <test started-at="2026-07-26T01:29:56 IST" name="OTP Authentication Test" finished-at="2026-07-26T01:30:15 IST" duration-ms="19690">
       <class name="tests.OTPAuthentication">
-        <test-method signature="OtpAuth()[pri:0, instance:tests.OTPAuthentication@62ddbd7e]" started-at="2026-07-26T00:58:07 IST" name="OtpAuth" finished-at="2026-07-26T00:58:25 IST" duration-ms="17613" status="PASS">
+        <test-method signature="OtpAuth()[pri:0, instance:tests.OTPAuthentication@62ddbd7e]" started-at="2026-07-26T01:29:56 IST" name="OtpAuth" finished-at="2026-07-26T01:30:15 IST" duration-ms="19681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OtpAuth -->
